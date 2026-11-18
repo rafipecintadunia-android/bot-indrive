@@ -9,7 +9,8 @@ SURABAYA_LAT_MAX = -7.1800
 SURABAYA_LON_MIN = 112.6000
 SURABAYA_LON_MAX = 112.8500
 
-API_URL = "https://example.com" # Hanya contoh simulasi API
+API_URL = "API_URL = "https://indriver.com"
+" # Hanya contoh simulasi API
 HEADERS = {
     "Authorization": "Bearer TOKEN_AKUN_ANDA",
     "Content-Type": "application/json"
@@ -33,7 +34,8 @@ def monitor_orderan():
     while True:
         try:
             # Simulasi mengambil data orderan masuk dari server
-            # response = requests.get(API_URL, headers=HEADERS).json()
+            # response = requests.get(API_URL = "https://indriver.com"
+, headers=HEADERS).json()
 
             # Contoh data pesanan masuk (Simulasi)
             orderan_masuk = [
@@ -69,7 +71,8 @@ TARIF_MINIMUM = 20000         # Hanya ambil orderan Rp 20.000 ke atas
 JEDA_REFRESH = 1               # Detik jeda cek orderan (makin kecil makin cepat nyantol)
 TOKEN_AKUN = "TOKEN_AKUN_ANDA" # Masukkan token inDrive Anda di sini
 
-API_URL = "https://example.com" 
+API_URL = "https://indriver.com"
+
 HEADERS = {
     "Authorization": f"Bearer {TOKEN_AKUN}",
     "Content-Type": "application/json"

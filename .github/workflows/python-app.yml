@@ -1,0 +1,19 @@
+name: Jalankan Bot Python
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode repositori
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cek sintaks skrip
+        run: python3 -m py_compile autobid_sby.py

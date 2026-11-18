@@ -96,6 +96,7 @@ def terima_orderan(order_id, tarif):
         print(f"[!] Gagal mengeksekusi ID {order_id} karena kendala sinyal dijalan.")
         return False
 
+if __name__ == "__main__":
 def monitor_orderan():
     print(f"[+] Bot Auto-Bid Aktif Sembari Melintas.")
     print(f"[+] Filter: Wilayah Surabaya | Tarif Min: Rp {TARIF_MINIMUM:,}")

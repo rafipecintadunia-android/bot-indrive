@@ -9,8 +9,8 @@ SURABAYA_LAT_MAX = -7.1800
 SURABAYA_LON_MIN = 112.6000
 SURABAYA_LON_MAX = 112.8500
 
-API_URL = "API_URL = "https://indriver.com"
-" # Hanya contoh simulasi API
+API_URL = "https://indriver.com" # Hanya contoh simulasi API
+
 HEADERS = {
     "Authorization": "Bearer TOKEN_AKUN_ANDA",
     "Content-Type": "application/json"
